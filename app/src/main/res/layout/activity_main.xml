@@ -49,7 +49,16 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="yay..." />
+            android:text="yay..."
+            android:translationX="100dp" />
+
+        <Switch
+            android:id="@+id/Frosting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Frosting"
+            android:translationX="-80dp" />
 
     </LinearLayout>
 </LinearLayout>
