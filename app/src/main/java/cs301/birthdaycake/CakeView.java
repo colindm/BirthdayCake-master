@@ -9,6 +9,12 @@ import android.view.SurfaceView;
 
 public class CakeView extends SurfaceView {
 
+    private CakeModel instanceCakeModel = new CakeModel();
+
+    public CakeModel getInstanceCakeModel() {
+        return instanceCakeModel;
+    }
+
     /* These are the paints we'll use to draw the birthday cake below */
     Paint cakePaint = new Paint();
     Paint frostingPaint = new Paint();
@@ -33,7 +39,6 @@ public class CakeView extends SurfaceView {
     public static final float wickWidth = 6.0f;
     public static final float outerFlameRadius = 30.0f;
     public static final float innerFlameRadius = 15.0f;
-
 
 
     /**
