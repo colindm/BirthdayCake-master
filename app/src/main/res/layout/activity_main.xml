@@ -88,7 +88,7 @@
                     android:layout_height="70dp"
                     android:orientation="vertical">
                     <Switch
-                        android:id="@+id/Frosting"
+                        android:id="@+id/FrostingSwitch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
@@ -96,7 +96,7 @@
                         android:translationX="0dp"
                         android:checked="true"/>
                     <Switch
-                        android:id="@+id/Candles"
+                        android:id="@+id/CandlesSwitch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                         <Button
-                            android:id="@+id/button"
+                            android:id="@+id/button_blow_out"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Blow out" />
