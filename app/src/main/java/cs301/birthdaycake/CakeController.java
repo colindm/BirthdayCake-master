@@ -23,6 +23,7 @@ public class CakeController implements View.OnClickListener, CompoundButton.OnCh
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         Log.d("CakeController", "onCheckedChanged method called");
         cakeModel.hasCandles = isChecked;
+//        cakeModel.hasCandles = false;
         cakeView.invalidate();
     }
 }
